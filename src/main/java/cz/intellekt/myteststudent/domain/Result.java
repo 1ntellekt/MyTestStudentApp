@@ -5,7 +5,7 @@ public class Result {
     private int score=0;
     private int wrongs=0;
 
-    private int answers;
+    private final int answers;
 
     public Result(int answers) {
         this.answers = answers;
